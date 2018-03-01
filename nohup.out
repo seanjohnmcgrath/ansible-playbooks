@@ -1,0 +1,195 @@
+Semaphore 2.4.1
+Port :3000
+MySQL root@127.0.0.1:3306 semaphore
+Tmp Path (projects home) /opt/data/semaphore
+Checking DB migrations
+[97;42m 200 [0m 13:06:17      8.1587ms |[97;44m  [0m GET     /api/user
+[97;42m 200 [0m 13:06:17     11.5022ms |[97;44m  [0m GET     /api/info
+[97;42m 200 [0m 13:06:17     29.5644ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 13:06:17     61.7509ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 13:06:21     28.2037ms |[97;44m  [0m GET     /api/users
+[97;42m 200 [0m 13:06:23     19.6413ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 13:06:23     92.1414ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 13:06:34     21.8932ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 13:06:34     46.6876ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:06:34      118.14ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 13:06:37       9.629ms |[97;44m  [0m GET     /api/project/1/tasks/12/output
+[97;42m 200 [0m 13:06:37      7.7808ms |[97;44m  [0m GET     /api/users/1
+[97;42m 204 [0m 13:06:43     14.3859ms |[97;41m  [0m DELETE  /api/project/1/tasks/12
+[97;42m 200 [0m 13:06:43      6.1134ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:06:49     75.2868ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 13:06:49     79.3152ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:06:49     112.638ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:06:49    112.3359ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:06:49    114.7456ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:06:51      56.767ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:06:51     140.518ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 13:06:57     44.0782ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:06:57      56.014ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:06:57     86.9251ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:06:57     71.8878ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:06:57     77.5745ms |[97;44m  [0m GET     /api/project/1/templates
+&{{13 1 waiting true true   0xc4204f5810 {63655535225 426921800 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 13:07:05     10.1316ms |[97;46m  [0m POST    /api/project/1/tasks
+[1]
+[97;42m 200 [0m 13:07:05     11.3371ms |[97;44m  [0m GET     /api/project/1/tasks/13/output
+[97;42m 200 [0m 13:07:05      7.3318ms |[97;44m  [0m GET     /api/users/1
+Stopped running tasks
+&{{14 1 waiting true true   0xc42017e230 {63655535237 410815700 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 13:07:17     15.4784ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 13:07:17     18.2489ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:07:17     28.0019ms |[97;44m  [0m GET     /api/project/1/tasks/14/output
+Stopped running tasks
+[97;42m 200 [0m 13:07:53     12.2709ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:07:56     18.1094ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:07:58     10.3754ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:07:59     12.2574ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:07:59      7.5546ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:08:02     11.1102ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:08:03     39.1628ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:08:03     29.9178ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:08:03     20.8177ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 13:08:03      47.581ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:08:03     45.0778ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 204 [0m 13:08:20      9.2064ms |[97;43m  [0m PUT     /api/project/1/templates/1
+[97;42m 200 [0m 13:08:20      4.9472ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 13:08:22      9.0372ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:08:31     21.0479ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:08:31     18.9776ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:08:31     35.9466ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:08:31     36.1173ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:08:31      35.671ms |[97;44m  [0m GET     /api/project/1/templates
+&{{15 1 waiting true true   0xc420434000 {63655535315 951317100 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 13:08:35     12.1598ms |[97;46m  [0m POST    /api/project/1/tasks
+[1]
+[97;42m 200 [0m 13:08:35      5.8819ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:08:35      9.3567ms |[97;44m  [0m GET     /api/project/1/tasks/15/output
+Stopped running tasks
+&{{16 1 waiting false true   0xc42026fa40 {63655535352 236136900 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[1]
+[97;42m 201 [0m 13:09:12     12.3157ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 13:09:12      4.0967ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:09:12      8.1527ms |[97;44m  [0m GET     /api/project/1/tasks/16/output
+Stopped running tasks
+&{{17 1 waiting false false   0xc420230690 {63655535375 881630400 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 13:09:35      8.8562ms |[97;46m  [0m POST    /api/project/1/tasks
+[1]
+[97;42m 200 [0m 13:09:35      4.0167ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:09:35     10.8873ms |[97;44m  [0m GET     /api/project/1/tasks/17/output
+[97;42m 200 [0m 13:10:31     15.9037ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:10:32     10.8928ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:10:34     15.5211ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:10:34      7.6549ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:10:41     11.5294ms |[97;44m  [0m GET     /api/project/1/users
+[97;42m 200 [0m 13:10:43     20.8166ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:10:43     57.5076ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 13:10:53     11.5531ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:10:53     12.1207ms |[97;44m  [0m GET     /api/project/1/tasks/17/output
+[97;42m 200 [0m 13:10:57      6.6078ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:10:57         9.9ms |[97;44m  [0m GET     /api/project/1/tasks/16/output
+[97;42m 204 [0m 13:11:02     12.8426ms |[97;41m  [0m DELETE  /api/project/1/tasks/16
+[97;42m 200 [0m 13:11:02      5.4742ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:11:03      6.7515ms |[97;44m  [0m GET     /api/project/1/tasks/14/output
+[97;42m 200 [0m 13:11:03      7.3651ms |[97;44m  [0m GET     /api/users/1
+[97;42m 204 [0m 13:11:04      16.929ms |[97;41m  [0m DELETE  /api/project/1/tasks/14
+[97;42m 200 [0m 13:11:04      5.6313ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:11:05      5.8075ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:11:05     25.7699ms |[97;44m  [0m GET     /api/project/1/tasks/13/output
+[97;42m 204 [0m 13:11:07     11.1996ms |[97;41m  [0m DELETE  /api/project/1/tasks/13
+[97;42m 200 [0m 13:11:07      5.6909ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:11:08      4.9581ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:11:08     21.1051ms |[97;44m  [0m GET     /api/project/1/tasks/15/output
+[97;42m 204 [0m 13:11:18     24.1276ms |[97;41m  [0m DELETE  /api/project/1/tasks/15
+[97;42m 200 [0m 13:11:18      7.2121ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:11:20      5.4254ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:11:20      8.1777ms |[97;44m  [0m GET     /api/project/1/tasks/17/output
+[97;42m 204 [0m 13:11:22      8.5184ms |[97;41m  [0m DELETE  /api/project/1/tasks/17
+[97;42m 200 [0m 13:11:22      4.5334ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:11:24     36.5543ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:11:24      43.144ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:11:24     44.0263ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:11:24     53.2328ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:11:24     57.7616ms |[97;44m  [0m GET     /api/project/1/templates
+&{{18 1 waiting true false   0xc420191180 {63655535666 993032000 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 13:14:26     11.1936ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 13:14:27      6.1697ms |[97;44m  [0m GET     /api/project/1/tasks/18/output
+[97;42m 200 [0m 13:14:27      4.4976ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:14:39      7.0312ms |[97;44m  [0m GET     /api/project/1/tasks/18/output
+[97;42m 200 [0m 13:14:39      5.9687ms |[97;44m  [0m GET     /api/users/1
+[97;42m 204 [0m 13:14:43      8.2983ms |[97;41m  [0m DELETE  /api/project/1/tasks/18
+&{{19 1 waiting true true   0xc4200e3ea0 {63655535689 829003200 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 13:14:49     10.1784ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 13:14:49      4.1333ms |[97;44m  [0m GET     /api/project/1/tasks/19/output
+[97;42m 200 [0m 13:14:49      4.2572ms |[97;44m  [0m GET     /api/users/1
+[97;42m 204 [0m 13:14:52      8.0294ms |[97;41m  [0m DELETE  /api/project/1/tasks/19
+Semaphore 2.4.1
+Port :3000
+MySQL root@127.0.0.1:3306 semaphore
+Tmp Path (projects home) /opt/data/semaphore
+Checking DB migrations
+&{{20 1 waiting true false   0xc4204f5c00 {63655535708 665776200 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 13:15:08     10.9627ms |[97;46m  [0m POST    /api/project/1/tasks
+[97;42m 200 [0m 13:15:08      4.2233ms |[97;44m  [0m GET     /api/project/1/tasks/20/output
+[97;42m 200 [0m 13:15:08      3.1398ms |[97;44m  [0m GET     /api/users/1
+[97;42m 204 [0m 13:15:18       7.271ms |[97;41m  [0m DELETE  /api/project/1/tasks/20
+[97;42m 200 [0m 13:15:20      5.7864ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:15:20      47.359ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 13:15:21     20.3099ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:15:21     26.0841ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:15:21     41.4833ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:15:21     37.5844ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:15:21     32.4861ms |[97;44m  [0m GET     /api/project/1/templates
+Semaphore 2.4.1
+Port :3000
+MySQL root@127.0.0.1:3306 semaphore
+Tmp Path (projects home) /opt/data/semaphore
+Checking DB migrations
+[97;42m 200 [0m 13:16:33     13.5198ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 13:16:33     43.7927ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 13:16:36      5.5433ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 13:16:36      6.0945ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:16:36      49.856ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 13:16:38     27.6092ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:16:38     29.1804ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:16:38     32.2632ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:16:38     34.8834ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:16:38     34.1649ms |[97;44m  [0m GET     /api/project/1/templates
+&{{21 1 waiting true false   0xc4201265b0 {63655535802 287506300 0xddeb20} <nil> <nil>} {0 0 0 0 0 <nil>   <nil> false} {0   <nil> <nil> <nil> false} {0  0  <nil> {0   <nil> <nil> <nil> false} <nil> {0   <nil> <nil> <nil> false}  false} {0  0  0 false {0   <nil> <nil> <nil> false}} {0  0 <nil>  false} [] 1 false }
+[97;42m 201 [0m 13:16:42      10.221ms |[97;46m  [0m POST    /api/project/1/tasks
+[1]
+[97;42m 200 [0m 13:16:42      4.3675ms |[97;44m  [0m GET     /api/users/1
+[97;42m 200 [0m 13:16:42      8.4872ms |[97;44m  [0m GET     /api/project/1/tasks/21/output
+[97;42m 204 [0m 13:17:08     11.7102ms |[97;41m  [0m DELETE  /api/project/1/tasks/21
+[97;42m 200 [0m 13:17:11      12.586ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:17:11      50.318ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 13:17:18      8.7568ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:17:20     14.2309ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:17:20     13.2375ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:17:21      6.5293ms |[97;44m  [0m GET     /api/project/1/users
+[97;42m 200 [0m 13:17:22      12.523ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:17:22     17.5237ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:17:22     30.5674ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:17:22     30.0012ms |[97;44m  [0m GET     /api/project/1/templates
+[97;42m 200 [0m 13:17:22     39.8492ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:17:24     13.4643ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:17:25     48.4311ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 13:17:27     14.0095ms |[97;44m  [0m GET     /api/projects
+[97;42m 200 [0m 13:17:27     55.8144ms |[97;44m  [0m GET     /api/events
+[97;42m 200 [0m 13:17:32      4.8566ms |[97;44m  [0m GET     /api/project/1
+[97;42m 200 [0m 13:17:32     16.8972ms |[97;44m  [0m GET     /api/project/1/tasks
+[97;42m 200 [0m 13:17:32     51.7856ms |[97;44m  [0m GET     /api/project/1/events
+[97;42m 200 [0m 13:17:42     26.9483ms |[97;44m  [0m GET     /api/project/1/keys
+[97;42m 200 [0m 13:17:42     27.7291ms |[97;44m  [0m GET     /api/project/1/environment
+[97;42m 200 [0m 13:17:42     37.1063ms |[97;44m  [0m GET     /api/project/1/repositories
+[97;42m 200 [0m 13:17:42     37.3595ms |[97;44m  [0m GET     /api/project/1/inventory
+[97;42m 200 [0m 13:17:42     43.6966ms |[97;44m  [0m GET     /api/project/1/templates
+Stopped running tasks
+Failed to insert task output: Error 1452: Cannot add or update a child row: a foreign key constraint fails (`semaphore`.`task__output`, CONSTRAINT `task__output_ibfk_1` FOREIGN KEY (`task_id`) REFERENCES `task` (`id`) ON DELETE CASCADE)
+panic: Error 1452: Cannot add or update a child row: a foreign key constraint fails (`semaphore`.`task__output`, CONSTRAINT `task__output_ibfk_1` FOREIGN KEY (`task_id`) REFERENCES `task` (`id`) ON DELETE CASCADE)
+
+goroutine 606 [running]:
+github.com/ansible-semaphore/semaphore/api/tasks.(*task).log.func1(0xc420108380, 0xc42026fec0, 0x27, 0xed22a6517, 0x36281ce4, 0xddeb20)
+	/Users/m/p/go/src/github.com/ansible-semaphore/semaphore/api/tasks/logging.go:37 +0x267
+created by github.com/ansible-semaphore/semaphore/api/tasks.(*task).log
+	/Users/m/p/go/src/github.com/ansible-semaphore/semaphore/api/tasks/logging.go:39 +0x612
